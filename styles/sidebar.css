@@ -1,0 +1,89 @@
+.sidebar-left{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 240px;
+
+    background-color:white;
+    border-right: 2px solid rgba(0,0,0,0.05);
+    margin-left:0px;
+}
+
+.top-sidebar-left{
+    height: 60px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.logo-instagram{
+  width: 100%;
+  max-width: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.middle-sidebar-left{
+    height:450px;
+    background-color:white;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sidebar-link{
+    height:40px;
+    width:220px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-bottom:14px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.sidebar-link:hover {
+    background-color:rgb(255, 243, 112);
+    font-weight:700;
+}
+
+.sidebar-link img{
+    height:25px;
+    margin-right: 14px;
+    margin-left: 12px;
+}
+
+.sidebar-link div{
+    font-size: 14px;
+    white-space: nowrap;  
+    overflow: hidden;       
+    text-overflow: ellipsis;    
+    max-width: 100px; 
+}
+
+.picture-profile{
+    border-radius: 15px;
+}
+
+.also-meta{
+    height: 20px;
+}
+
+.bottom-sidebar-left{
+    height:110px;
+    background-color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

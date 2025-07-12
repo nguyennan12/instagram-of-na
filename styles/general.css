@@ -1,0 +1,19 @@
+p{
+    margin: 0px;
+}
+
+body{
+    font-family: Roboto, arial;
+    margin-bottom: 1000px;
+}
+
+@media (max-width: 768px) {
+  .header-utilities {
+    display: none;
+  }
+
+  .link-header{
+    display: none;
+  }
+
+}

@@ -1,0 +1,84 @@
+.header{
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  height:80px;
+  border-bottom: 2px solid rgb(251, 232, 31);
+  margin-top: 12px;
+}
+
+.link-header{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 300px;
+}
+
+.header-logo{
+  display: flex;
+  flex:1;
+
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.logo-picture{
+  height: 70px;
+  border-radius: 35px;
+  border: 2px solid rgb(251, 232, 31);
+}
+
+.menu-button{
+  width: 200px;
+}
+
+.header-utilities{
+  display: flex;
+  width: 200px;
+  background-color: white;
+  flex-shrink: 1;
+  margin-right: 50px;
+}
+
+.utility-button{
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.utility-button:hover {
+  background: rgb(216, 216, 216);
+}
+
+.utility-picture{
+  height: 25px;
+}
+
+.link-header{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+
+}
+
+.text-link{
+  padding: 8px 15px;
+  font-size: 16px;
+  transition: background-color 0.15s, font-weight 0.15s;
+  cursor: pointer;
+  margin-top: 6px;
+  white-space: nowrap;  
+  overflow: hidden;       
+  text-overflow: ellipsis;    
+  max-width: 150px; 
+}
+
+.text-link:hover {
+  background-color:rgb(255, 243, 112);
+  font-weight: 600;
+}
