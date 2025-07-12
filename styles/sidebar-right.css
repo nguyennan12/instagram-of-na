@@ -1,0 +1,129 @@
+.sidebar-right{
+    position: relative;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+}
+
+.top-sidebar-right{
+    height: 380px;
+    background-color: white;
+    margin-top: 55px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-link{
+    display:flex;
+    align-items: center;
+}
+
+.profile-link-name{
+    margin-right: 80px;
+    margin-left: 12px;
+    font-size: 12px;
+    margin-bottom: 18px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.switch-profile{
+    margin-left:50px;
+    font-size: 12px;
+    color:rgb(35, 160, 255);
+    font-weight: 600;
+    transition: color 0.15s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.switch-profile:hover {
+    color:rgb(6, 103, 177)
+}
+
+.main-text-profile{
+    font-weight: 600;
+}
+.minor-text-profile{
+    font-weight: 500;
+    color: gray;
+}
+
+.profile-link img{
+    height: 40px;
+    border-radius: 23px;
+    margin-bottom: 12px;
+}
+
+.follow-profile{
+    font-size: 12px;
+    color:rgb(35, 160, 255);
+    font-weight: 600;
+    transition: color 0.15s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.follow-profile:hover {
+    color:rgb(6, 103, 177)
+}
+
+.suggested{
+    display: flex;
+    font-size: 13px;
+    height: 40px;
+}
+
+.see-all-link{
+    font-weight: 600;
+    margin-left: 126px;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+.see-all-link:hover {
+    color: gray;
+}
+
+.middle-sidebar-right{
+    height:80px;
+    background-color: white;
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(184, 184, 184);
+}
+
+.minor-text-middle{
+    padding-top: 16px;
+}
+
+
+.bottom-sidebar-right{
+    margin-top: 180px;
+}
+
+.messenger-box{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    font-size: 14px;
+    font-weight: 600;
+    bottom:30px;
+    right: 35px;
+    padding: 12px;
+    width: 220px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2)
+}
+
+.bottom-sidebar-right img{
+    height: 20px;
+    margin-right: 12px;
+    margin-left: 8px;
+    padding-top: 4px;
+}
+
